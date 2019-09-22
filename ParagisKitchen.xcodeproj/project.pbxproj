@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C997DF3233724AF002ACA9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997DF2233724AF002ACA9D /* AppDelegate.swift */; };
+		5C997DF5233724AF002ACA9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997DF4233724AF002ACA9D /* ViewController.swift */; };
+		5C997DF8233724AF002ACA9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C997DF6233724AF002ACA9D /* Main.storyboard */; };
+		5C997DFB233724AF002ACA9D /* ParagisKitchen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C997DF9233724AF002ACA9D /* ParagisKitchen.xcdatamodeld */; };
+		5C997DFD233724B1002ACA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C997DFC233724B1002ACA9D /* Assets.xcassets */; };
+		5C997E00233724B1002ACA9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C997DFE233724B1002ACA9D /* LaunchScreen.storyboard */; };
+		5C997E0B233724B1002ACA9D /* ParagisKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E0A233724B1002ACA9D /* ParagisKitchenTests.swift */; };
+		5C997E16233724B1002ACA9D /* ParagisKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E15233724B1002ACA9D /* ParagisKitchenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C997E07233724B1002ACA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C997DE7233724AF002ACA9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C997DEE233724AF002ACA9D;
+			remoteInfo = ParagisKitchen;
+		};
+		5C997E12233724B1002ACA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C997DE7233724AF002ACA9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C997DEE233724AF002ACA9D;
+			remoteInfo = ParagisKitchen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C997DEF233724AF002ACA9D /* ParagisKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParagisKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C997DF2233724AF002ACA9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C997DF4233724AF002ACA9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C997DF7233724AF002ACA9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C997DFA233724AF002ACA9D /* ParagisKitchen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParagisKitchen.xcdatamodel; sourceTree = "<group>"; };
+		5C997DFC233724B1002ACA9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C997DFF233724B1002ACA9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C997E01233724B1002ACA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C997E06233724B1002ACA9D /* ParagisKitchenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParagisKitchenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C997E0A233724B1002ACA9D /* ParagisKitchenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagisKitchenTests.swift; sourceTree = "<group>"; };
+		5C997E0C233724B1002ACA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C997E11233724B1002ACA9D /* ParagisKitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParagisKitchenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C997E15233724B1002ACA9D /* ParagisKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagisKitchenUITests.swift; sourceTree = "<group>"; };
+		5C997E17233724B1002ACA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C997DEC233724AF002ACA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C997E03233724B1002ACA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C997E0E233724B1002ACA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C997DE6233724AF002ACA9D = {
+			isa = PBXGroup;
+			children = (
+				5C997DF1233724AF002ACA9D /* ParagisKitchen */,
+				5C997E09233724B1002ACA9D /* ParagisKitchenTests */,
+				5C997E14233724B1002ACA9D /* ParagisKitchenUITests */,
+				5C997DF0233724AF002ACA9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C997DF0233724AF002ACA9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C997DEF233724AF002ACA9D /* ParagisKitchen.app */,
+				5C997E06233724B1002ACA9D /* ParagisKitchenTests.xctest */,
+				5C997E11233724B1002ACA9D /* ParagisKitchenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C997DF1233724AF002ACA9D /* ParagisKitchen */ = {
+			isa = PBXGroup;
+			children = (
+				5C997DF2233724AF002ACA9D /* AppDelegate.swift */,
+				5C997DF4233724AF002ACA9D /* ViewController.swift */,
+				5C997DF6233724AF002ACA9D /* Main.storyboard */,
+				5C997DFC233724B1002ACA9D /* Assets.xcassets */,
+				5C997DFE233724B1002ACA9D /* LaunchScreen.storyboard */,
+				5C997E01233724B1002ACA9D /* Info.plist */,
+				5C997DF9233724AF002ACA9D /* ParagisKitchen.xcdatamodeld */,
+			);
+			path = ParagisKitchen;
+			sourceTree = "<group>";
+		};
+		5C997E09233724B1002ACA9D /* ParagisKitchenTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C997E0A233724B1002ACA9D /* ParagisKitchenTests.swift */,
+				5C997E0C233724B1002ACA9D /* Info.plist */,
+			);
+			path = ParagisKitchenTests;
+			sourceTree = "<group>";
+		};
+		5C997E14233724B1002ACA9D /* ParagisKitchenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C997E15233724B1002ACA9D /* ParagisKitchenUITests.swift */,
+				5C997E17233724B1002ACA9D /* Info.plist */,
+			);
+			path = ParagisKitchenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C997DEE233724AF002ACA9D /* ParagisKitchen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C997E1A233724B1002ACA9D /* Build configuration list for PBXNativeTarget "ParagisKitchen" */;
+			buildPhases = (
+				5C997DEB233724AF002ACA9D /* Sources */,
+				5C997DEC233724AF002ACA9D /* Frameworks */,
+				5C997DED233724AF002ACA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParagisKitchen;
+			productName = ParagisKitchen;
+			productReference = 5C997DEF233724AF002ACA9D /* ParagisKitchen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C997E05233724B1002ACA9D /* ParagisKitchenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C997E1D233724B1002ACA9D /* Build configuration list for PBXNativeTarget "ParagisKitchenTests" */;
+			buildPhases = (
+				5C997E02233724B1002ACA9D /* Sources */,
+				5C997E03233724B1002ACA9D /* Frameworks */,
+				5C997E04233724B1002ACA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C997E08233724B1002ACA9D /* PBXTargetDependency */,
+			);
+			name = ParagisKitchenTests;
+			productName = ParagisKitchenTests;
+			productReference = 5C997E06233724B1002ACA9D /* ParagisKitchenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C997E10233724B1002ACA9D /* ParagisKitchenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C997E20233724B1002ACA9D /* Build configuration list for PBXNativeTarget "ParagisKitchenUITests" */;
+			buildPhases = (
+				5C997E0D233724B1002ACA9D /* Sources */,
+				5C997E0E233724B1002ACA9D /* Frameworks */,
+				5C997E0F233724B1002ACA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C997E13233724B1002ACA9D /* PBXTargetDependency */,
+			);
+			name = ParagisKitchenUITests;
+			productName = ParagisKitchenUITests;
+			productReference = 5C997E11233724B1002ACA9D /* ParagisKitchenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C997DE7233724AF002ACA9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Noirdemort;
+				TargetAttributes = {
+					5C997DEE233724AF002ACA9D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					5C997E05233724B1002ACA9D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5C997DEE233724AF002ACA9D;
+					};
+					5C997E10233724B1002ACA9D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 5C997DEE233724AF002ACA9D;
+					};
+				};
+			};
+			buildConfigurationList = 5C997DEA233724AF002ACA9D /* Build configuration list for PBXProject "ParagisKitchen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C997DE6233724AF002ACA9D;
+			productRefGroup = 5C997DF0233724AF002ACA9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C997DEE233724AF002ACA9D /* ParagisKitchen */,
+				5C997E05233724B1002ACA9D /* ParagisKitchenTests */,
+				5C997E10233724B1002ACA9D /* ParagisKitchenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C997DED233724AF002ACA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C997E00233724B1002ACA9D /* LaunchScreen.storyboard in Resources */,
+				5C997DFD233724B1002ACA9D /* Assets.xcassets in Resources */,
+				5C997DF8233724AF002ACA9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C997E04233724B1002ACA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C997E0F233724B1002ACA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C997DEB233724AF002ACA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C997DF5233724AF002ACA9D /* ViewController.swift in Sources */,
+				5C997DF3233724AF002ACA9D /* AppDelegate.swift in Sources */,
+				5C997DFB233724AF002ACA9D /* ParagisKitchen.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C997E02233724B1002ACA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C997E0B233724B1002ACA9D /* ParagisKitchenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C997E0D233724B1002ACA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C997E16233724B1002ACA9D /* ParagisKitchenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C997E08233724B1002ACA9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C997DEE233724AF002ACA9D /* ParagisKitchen */;
+			targetProxy = 5C997E07233724B1002ACA9D /* PBXContainerItemProxy */;
+		};
+		5C997E13233724B1002ACA9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C997DEE233724AF002ACA9D /* ParagisKitchen */;
+			targetProxy = 5C997E12233724B1002ACA9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C997DF6233724AF002ACA9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C997DF7233724AF002ACA9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C997DFE233724B1002ACA9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C997DFF233724B1002ACA9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C997E18233724B1002ACA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C997E19233724B1002ACA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C997E1B233724B1002ACA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = ParagisKitchen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = noirdemort.adroitalliance.ParagisKitchen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C997E1C233724B1002ACA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = ParagisKitchen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = noirdemort.adroitalliance.ParagisKitchen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C997E1E233724B1002ACA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = ParagisKitchenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = noirdemort.adroitalliance.ParagisKitchenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParagisKitchen.app/ParagisKitchen";
+			};
+			name = Debug;
+		};
+		5C997E1F233724B1002ACA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = ParagisKitchenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = noirdemort.adroitalliance.ParagisKitchenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParagisKitchen.app/ParagisKitchen";
+			};
+			name = Release;
+		};
+		5C997E21233724B1002ACA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = ParagisKitchenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = noirdemort.adroitalliance.ParagisKitchenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParagisKitchen;
+			};
+			name = Debug;
+		};
+		5C997E22233724B1002ACA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GLBR3SXF68;
+				INFOPLIST_FILE = ParagisKitchenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = noirdemort.adroitalliance.ParagisKitchenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParagisKitchen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C997DEA233724AF002ACA9D /* Build configuration list for PBXProject "ParagisKitchen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C997E18233724B1002ACA9D /* Debug */,
+				5C997E19233724B1002ACA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C997E1A233724B1002ACA9D /* Build configuration list for PBXNativeTarget "ParagisKitchen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C997E1B233724B1002ACA9D /* Debug */,
+				5C997E1C233724B1002ACA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C997E1D233724B1002ACA9D /* Build configuration list for PBXNativeTarget "ParagisKitchenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C997E1E233724B1002ACA9D /* Debug */,
+				5C997E1F233724B1002ACA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C997E20233724B1002ACA9D /* Build configuration list for PBXNativeTarget "ParagisKitchenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C997E21233724B1002ACA9D /* Debug */,
+				5C997E22233724B1002ACA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C997DF9233724AF002ACA9D /* ParagisKitchen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C997DFA233724AF002ACA9D /* ParagisKitchen.xcdatamodel */,
+			);
+			currentVersion = 5C997DFA233724AF002ACA9D /* ParagisKitchen.xcdatamodel */;
+			path = ParagisKitchen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5C997DE7233724AF002ACA9D /* Project object */;
+}
