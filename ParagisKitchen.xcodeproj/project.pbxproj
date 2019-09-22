@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0227F8BC39ED67AC75271357 /* Pods_ParagisKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8F68D8F1C13F7802BFAC1E6 /* Pods_ParagisKitchen.framework */; };
 		5C997DF3233724AF002ACA9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997DF2233724AF002ACA9D /* AppDelegate.swift */; };
-		5C997DF5233724AF002ACA9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997DF4233724AF002ACA9D /* ViewController.swift */; };
+		5C997DF5233724AF002ACA9D /* CuisineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997DF4233724AF002ACA9D /* CuisineViewController.swift */; };
 		5C997DF8233724AF002ACA9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C997DF6233724AF002ACA9D /* Main.storyboard */; };
 		5C997DFB233724AF002ACA9D /* ParagisKitchen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C997DF9233724AF002ACA9D /* ParagisKitchen.xcdatamodeld */; };
 		5C997DFD233724B1002ACA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C997DFC233724B1002ACA9D /* Assets.xcassets */; };
 		5C997E00233724B1002ACA9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C997DFE233724B1002ACA9D /* LaunchScreen.storyboard */; };
 		5C997E0B233724B1002ACA9D /* ParagisKitchenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E0A233724B1002ACA9D /* ParagisKitchenTests.swift */; };
 		5C997E16233724B1002ACA9D /* ParagisKitchenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E15233724B1002ACA9D /* ParagisKitchenUITests.swift */; };
+		5C997E24233751A9002ACA9D /* FoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E23233751A9002ACA9D /* FoodsViewController.swift */; };
+		5C997E2623375241002ACA9D /* RecommendedRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E2523375241002ACA9D /* RecommendedRecipeViewController.swift */; };
+		5C997E282337525D002ACA9D /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E272337525D002ACA9D /* RecipeViewController.swift */; };
+		5C997E2A23375A43002ACA9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C997E2923375A43002ACA9D /* GoogleService-Info.plist */; };
+		5C997E2C23375CA8002ACA9D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E2B23375CA8002ACA9D /* RegisterViewController.swift */; };
+		5C997E2E23375CB5002ACA9D /* RecoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E2D23375CB5002ACA9D /* RecoverViewController.swift */; };
+		5C997E3023375CC2002ACA9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E2F23375CC2002ACA9D /* LoginViewController.swift */; };
+		5C997E3223377DAE002ACA9D /* CoreUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C997E3123377DAE002ACA9D /* CoreUtils.swift */; };
+		989965B23CFA52813F59B88A /* Pods_ParagisKitchenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1410B1FA7E0096C90FCFC54 /* Pods_ParagisKitchenUITests.framework */; };
+		B1EC20836D5CE582E355321C /* Pods_ParagisKitchenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1373E2C605C3E2DD4C1C12 /* Pods_ParagisKitchenTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BB91A27098167C2583AC857 /* Pods-ParagisKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParagisKitchen.debug.xcconfig"; path = "Target Support Files/Pods-ParagisKitchen/Pods-ParagisKitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1373E2C605C3E2DD4C1C12 /* Pods_ParagisKitchenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParagisKitchenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C997DEF233724AF002ACA9D /* ParagisKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParagisKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C997DF2233724AF002ACA9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C997DF4233724AF002ACA9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C997DF4233724AF002ACA9D /* CuisineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineViewController.swift; sourceTree = "<group>"; };
 		5C997DF7233724AF002ACA9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C997DFA233724AF002ACA9D /* ParagisKitchen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParagisKitchen.xcdatamodel; sourceTree = "<group>"; };
 		5C997DFC233724B1002ACA9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +62,21 @@
 		5C997E11233724B1002ACA9D /* ParagisKitchenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParagisKitchenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C997E15233724B1002ACA9D /* ParagisKitchenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParagisKitchenUITests.swift; sourceTree = "<group>"; };
 		5C997E17233724B1002ACA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C997E23233751A9002ACA9D /* FoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsViewController.swift; sourceTree = "<group>"; };
+		5C997E2523375241002ACA9D /* RecommendedRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedRecipeViewController.swift; sourceTree = "<group>"; };
+		5C997E272337525D002ACA9D /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		5C997E2923375A43002ACA9D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C997E2B23375CA8002ACA9D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5C997E2D23375CB5002ACA9D /* RecoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverViewController.swift; sourceTree = "<group>"; };
+		5C997E2F23375CC2002ACA9D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C997E3123377DAE002ACA9D /* CoreUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreUtils.swift; sourceTree = "<group>"; };
+		9349C7BBD2AAF8D3B0BECDCA /* Pods-ParagisKitchenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParagisKitchenUITests.release.xcconfig"; path = "Target Support Files/Pods-ParagisKitchenUITests/Pods-ParagisKitchenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98926DC180F88D3A2F212293 /* Pods-ParagisKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParagisKitchen.release.xcconfig"; path = "Target Support Files/Pods-ParagisKitchen/Pods-ParagisKitchen.release.xcconfig"; sourceTree = "<group>"; };
+		ACE5C0E8DA51969DAF1946CB /* Pods-ParagisKitchenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParagisKitchenTests.release.xcconfig"; path = "Target Support Files/Pods-ParagisKitchenTests/Pods-ParagisKitchenTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1410B1FA7E0096C90FCFC54 /* Pods_ParagisKitchenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParagisKitchenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8F68D8F1C13F7802BFAC1E6 /* Pods_ParagisKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParagisKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07E0635EA5C313925EC6F69 /* Pods-ParagisKitchenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParagisKitchenTests.debug.xcconfig"; path = "Target Support Files/Pods-ParagisKitchenTests/Pods-ParagisKitchenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF36477D84FEA2332BBB661E /* Pods-ParagisKitchenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParagisKitchenUITests.debug.xcconfig"; path = "Target Support Files/Pods-ParagisKitchenUITests/Pods-ParagisKitchenUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0227F8BC39ED67AC75271357 /* Pods_ParagisKitchen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1EC20836D5CE582E355321C /* Pods_ParagisKitchenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989965B23CFA52813F59B88A /* Pods_ParagisKitchenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +114,8 @@
 				5C997E09233724B1002ACA9D /* ParagisKitchenTests */,
 				5C997E14233724B1002ACA9D /* ParagisKitchenUITests */,
 				5C997DF0233724AF002ACA9D /* Products */,
+				D7540B55E22C41779D1F06BA /* Pods */,
+				7C4E6C80C4513BCF202047D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +133,16 @@
 			isa = PBXGroup;
 			children = (
 				5C997DF2233724AF002ACA9D /* AppDelegate.swift */,
-				5C997DF4233724AF002ACA9D /* ViewController.swift */,
 				5C997DF6233724AF002ACA9D /* Main.storyboard */,
+				5C997E3123377DAE002ACA9D /* CoreUtils.swift */,
+				5C997E2B23375CA8002ACA9D /* RegisterViewController.swift */,
+				5C997E2D23375CB5002ACA9D /* RecoverViewController.swift */,
+				5C997E2F23375CC2002ACA9D /* LoginViewController.swift */,
+				5C997DF4233724AF002ACA9D /* CuisineViewController.swift */,
+				5C997E23233751A9002ACA9D /* FoodsViewController.swift */,
+				5C997E2523375241002ACA9D /* RecommendedRecipeViewController.swift */,
+				5C997E272337525D002ACA9D /* RecipeViewController.swift */,
+				5C997E2923375A43002ACA9D /* GoogleService-Info.plist */,
 				5C997DFC233724B1002ACA9D /* Assets.xcassets */,
 				5C997DFE233724B1002ACA9D /* LaunchScreen.storyboard */,
 				5C997E01233724B1002ACA9D /* Info.plist */,
@@ -128,6 +169,29 @@
 			path = ParagisKitchenUITests;
 			sourceTree = "<group>";
 		};
+		7C4E6C80C4513BCF202047D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8F68D8F1C13F7802BFAC1E6 /* Pods_ParagisKitchen.framework */,
+				5A1373E2C605C3E2DD4C1C12 /* Pods_ParagisKitchenTests.framework */,
+				B1410B1FA7E0096C90FCFC54 /* Pods_ParagisKitchenUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7540B55E22C41779D1F06BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BB91A27098167C2583AC857 /* Pods-ParagisKitchen.debug.xcconfig */,
+				98926DC180F88D3A2F212293 /* Pods-ParagisKitchen.release.xcconfig */,
+				E07E0635EA5C313925EC6F69 /* Pods-ParagisKitchenTests.debug.xcconfig */,
+				ACE5C0E8DA51969DAF1946CB /* Pods-ParagisKitchenTests.release.xcconfig */,
+				FF36477D84FEA2332BBB661E /* Pods-ParagisKitchenUITests.debug.xcconfig */,
+				9349C7BBD2AAF8D3B0BECDCA /* Pods-ParagisKitchenUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C997E1A233724B1002ACA9D /* Build configuration list for PBXNativeTarget "ParagisKitchen" */;
 			buildPhases = (
+				3845D8AB290472F1C234BE47 /* [CP] Check Pods Manifest.lock */,
 				5C997DEB233724AF002ACA9D /* Sources */,
 				5C997DEC233724AF002ACA9D /* Frameworks */,
 				5C997DED233724AF002ACA9D /* Resources */,
+				DC9A0466663635BCB3BA61F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C997E1D233724B1002ACA9D /* Build configuration list for PBXNativeTarget "ParagisKitchenTests" */;
 			buildPhases = (
+				6C700ECDD06E7E4A70F61885 /* [CP] Check Pods Manifest.lock */,
 				5C997E02233724B1002ACA9D /* Sources */,
 				5C997E03233724B1002ACA9D /* Frameworks */,
 				5C997E04233724B1002ACA9D /* Resources */,
@@ -170,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C997E20233724B1002ACA9D /* Build configuration list for PBXNativeTarget "ParagisKitchenUITests" */;
 			buildPhases = (
+				FB08A8E71F5BA8468266ABCC /* [CP] Check Pods Manifest.lock */,
 				5C997E0D233724B1002ACA9D /* Sources */,
 				5C997E0E233724B1002ACA9D /* Frameworks */,
 				5C997E0F233724B1002ACA9D /* Resources */,
@@ -233,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C997E00233724B1002ACA9D /* LaunchScreen.storyboard in Resources */,
+				5C997E2A23375A43002ACA9D /* GoogleService-Info.plist in Resources */,
 				5C997DFD233724B1002ACA9D /* Assets.xcassets in Resources */,
 				5C997DF8233724AF002ACA9D /* Main.storyboard in Resources */,
 			);
@@ -254,13 +323,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3845D8AB290472F1C234BE47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParagisKitchen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C700ECDD06E7E4A70F61885 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParagisKitchenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9A0466663635BCB3BA61F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParagisKitchen/Pods-ParagisKitchen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParagisKitchen/Pods-ParagisKitchen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParagisKitchen/Pods-ParagisKitchen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB08A8E71F5BA8468266ABCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParagisKitchenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C997DEB233724AF002ACA9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C997DF5233724AF002ACA9D /* ViewController.swift in Sources */,
+				5C997E3023375CC2002ACA9D /* LoginViewController.swift in Sources */,
+				5C997DF5233724AF002ACA9D /* CuisineViewController.swift in Sources */,
 				5C997DF3233724AF002ACA9D /* AppDelegate.swift in Sources */,
+				5C997E2C23375CA8002ACA9D /* RegisterViewController.swift in Sources */,
+				5C997E3223377DAE002ACA9D /* CoreUtils.swift in Sources */,
+				5C997E2E23375CB5002ACA9D /* RecoverViewController.swift in Sources */,
+				5C997E282337525D002ACA9D /* RecipeViewController.swift in Sources */,
+				5C997E2623375241002ACA9D /* RecommendedRecipeViewController.swift in Sources */,
+				5C997E24233751A9002ACA9D /* FoodsViewController.swift in Sources */,
 				5C997DFB233724AF002ACA9D /* ParagisKitchen.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +596,7 @@
 		};
 		5C997E1B233724B1002ACA9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB91A27098167C2583AC857 /* Pods-ParagisKitchen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +615,7 @@
 		};
 		5C997E1C233724B1002ACA9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98926DC180F88D3A2F212293 /* Pods-ParagisKitchen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +634,7 @@
 		};
 		5C997E1E233724B1002ACA9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07E0635EA5C313925EC6F69 /* Pods-ParagisKitchenTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +656,7 @@
 		};
 		5C997E1F233724B1002ACA9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACE5C0E8DA51969DAF1946CB /* Pods-ParagisKitchenTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +678,7 @@
 		};
 		5C997E21233724B1002ACA9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF36477D84FEA2332BBB661E /* Pods-ParagisKitchenUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +699,7 @@
 		};
 		5C997E22233724B1002ACA9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9349C7BBD2AAF8D3B0BECDCA /* Pods-ParagisKitchenUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
