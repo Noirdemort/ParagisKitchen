@@ -132,20 +132,13 @@
 		5C997DF1233724AF002ACA9D /* ParagisKitchen */ = {
 			isa = PBXGroup;
 			children = (
-				5C997DF2233724AF002ACA9D /* AppDelegate.swift */,
-				5C997DF6233724AF002ACA9D /* Main.storyboard */,
-				5C997E3123377DAE002ACA9D /* CoreUtils.swift */,
-				5C997E2B23375CA8002ACA9D /* RegisterViewController.swift */,
-				5C997E2D23375CB5002ACA9D /* RecoverViewController.swift */,
-				5C997E2F23375CC2002ACA9D /* LoginViewController.swift */,
-				5C997DF4233724AF002ACA9D /* CuisineViewController.swift */,
-				5C997E23233751A9002ACA9D /* FoodsViewController.swift */,
-				5C997E2523375241002ACA9D /* RecommendedRecipeViewController.swift */,
-				5C997E272337525D002ACA9D /* RecipeViewController.swift */,
-				5C997E2923375A43002ACA9D /* GoogleService-Info.plist */,
-				5C997DFC233724B1002ACA9D /* Assets.xcassets */,
-				5C997DFE233724B1002ACA9D /* LaunchScreen.storyboard */,
 				5C997E01233724B1002ACA9D /* Info.plist */,
+				5C997E2923375A43002ACA9D /* GoogleService-Info.plist */,
+				5C997E3423380B22002ACA9D /* View */,
+				5C997E3323380AF2002ACA9D /* Controller */,
+				5C997DF2233724AF002ACA9D /* AppDelegate.swift */,
+				5C997E3123377DAE002ACA9D /* CoreUtils.swift */,
+				5C997DFC233724B1002ACA9D /* Assets.xcassets */,
 				5C997DF9233724AF002ACA9D /* ParagisKitchen.xcdatamodeld */,
 			);
 			path = ParagisKitchen;
@@ -167,6 +160,29 @@
 				5C997E17233724B1002ACA9D /* Info.plist */,
 			);
 			path = ParagisKitchenUITests;
+			sourceTree = "<group>";
+		};
+		5C997E3323380AF2002ACA9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C997E2F23375CC2002ACA9D /* LoginViewController.swift */,
+				5C997E2D23375CB5002ACA9D /* RecoverViewController.swift */,
+				5C997E2B23375CA8002ACA9D /* RegisterViewController.swift */,
+				5C997DF4233724AF002ACA9D /* CuisineViewController.swift */,
+				5C997E23233751A9002ACA9D /* FoodsViewController.swift */,
+				5C997E2523375241002ACA9D /* RecommendedRecipeViewController.swift */,
+				5C997E272337525D002ACA9D /* RecipeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C997E3423380B22002ACA9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C997DFE233724B1002ACA9D /* LaunchScreen.storyboard */,
+				5C997DF6233724AF002ACA9D /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		7C4E6C80C4513BCF202047D8 /* Frameworks */ = {
