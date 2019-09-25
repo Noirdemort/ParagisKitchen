@@ -70,6 +70,10 @@ class RecommendedRecipeViewController: UIViewController, UITableViewDelegate, UI
         }
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
 }
 
 class RecipeCell: UITableViewCell {

@@ -36,4 +36,9 @@ class RecipeViewController: UIViewController {
     @IBAction func openExternalLink(_ sender: Any) {
         UIApplication.shared.open(URL(string: externalLink) ?? URL(string: "https://www.duckduckgo.com")!, options: [:], completionHandler: nil)
     }
+    
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 }

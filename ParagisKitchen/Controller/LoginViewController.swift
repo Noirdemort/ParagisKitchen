@@ -15,6 +15,11 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        guard let statusBarView = UIApplication.shared.value(forKeyPath: "statusBarWindow.statusBar") as? UIView else {
+            return
+        }
+        statusBarView.backgroundColor = UIColor(red: CGFloat(0.258), green: CGFloat(0.117), blue: CGFloat(0.0), alpha: CGFloat(1.0))
+        statusBarView.tintColor = .white
         self.activityIndicator.isHidden = true
         self.activityIndicator.stopAnimating()
         prelogin()
@@ -113,6 +118,9 @@ class LoginViewController: UIViewController {
         self.view.endEditing(true)
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     
     func prelogin(){
         let fetchRequest:NSFetchRequest<AuthDB> = AuthDB.fetchRequest()

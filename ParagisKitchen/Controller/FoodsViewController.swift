@@ -130,6 +130,29 @@ class FoodsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         }
     }
 
+    /**
+     * Called when 'return' key pressed. return NO to ignore.
+     */
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    
+    /**
+     * Called when the user click on the view (outside the UITextField).
+     */
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 }
 
 

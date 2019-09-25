@@ -61,6 +61,10 @@ class CuisineViewController: UIViewController, UICollectionViewDelegate, UIColle
         
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
 }
 
 

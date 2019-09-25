@@ -176,4 +176,7 @@ class RegisterViewController: UIViewController {
         self.view.endEditing(true)
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 }
